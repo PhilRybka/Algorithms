@@ -1,5 +1,5 @@
 # Algorithms
-A collection of C++ algorithms I wrote, tweaked or found somewhere. MIT Licence applies to all, I reccommend you make use of it! :D
+A collection of C++ algorithms I wrote, tweaked or found somewhere. MIT Licence applies to all! :D
 
 During my programming journey I came across a lot of different versions of algorithms. Very often they are overcomplicated and can
 be written in a cleaner and shorter way. I try my best o provide useful and easy to understand versions of different algorithms
