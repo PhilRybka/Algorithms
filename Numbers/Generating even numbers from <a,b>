@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a,b,i;
+    cin>>a>>b;
+    
+    //if a is even begin from a, else add 1 to have the first even number
+    if(a%2==0)i=a;
+    else i=a+1;
+    
+    while(i<=b){
+        cout<<i<<endl;
+        i+=2; //generates all possible even numbers by adding 2 to the first even number
+    }
+}
