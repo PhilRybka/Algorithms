@@ -1,0 +1,47 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+
+void bubbleSort(int tab[],int n)
+{
+
+    int bufor;
+    for(int i=1; i<n; i++)
+        for(int j=n-1; j>=1; j--) //inside loop
+            if(tab[j]<tab[j-1])
+            {
+                //swap, the swap function can be used as well
+                bufor=tab[j-1];
+                tab[j-1]=tab[j];
+                tab[j]=bufor;
+            }
+}
+
+int main()
+{
+    srand(time(NULL));
+
+    int *tab,n;
+    cin>>n;
+
+    tab=new int[n];
+
+    for(int i=0; i<n; i++)
+    {
+        tab[i]=rand()%1000+1;
+    }
+
+
+
+    bubbleSort(tab,n);
+
+    for(int i=0; i<n; i++)
+    {
+        cout<<tab[i]<<" ";
+    }
+
+    delete[] tab;
+
+}
