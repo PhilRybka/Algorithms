@@ -1,4 +1,4 @@
-//Another name for this algorithm is Euklidean Algorithm
+//Another name for this algorithm is Euclidean Algorithm
 #include <iostream>
 using namespace std;
 
