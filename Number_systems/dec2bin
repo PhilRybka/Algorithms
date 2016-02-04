@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+string dec2bin(int n){
+    string bin;
+    char bufor=' ';
+    while(n!=0)
+    {
+        bufor=n%2+'0';
+        bin=bufor+bin;
+        n/=2;
+    }
+    return bin;
+}
+
+int main()
+{
+    int n;
+    cin>>n;
+    string a=dec2bin(n);
+    cout<<a;
+}
