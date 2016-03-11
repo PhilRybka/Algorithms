@@ -1,0 +1,4 @@
+int bin2dec(string bin){
+  int dec=strtol(bin,NULL,2);
+  return dec;
+}
