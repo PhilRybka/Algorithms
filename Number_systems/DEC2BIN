@@ -1,0 +1,5 @@
+string dec2bin(int dec){
+	char bin[255];
+	itoa(dec,bin,2);
+	return (string)bin;
+}
