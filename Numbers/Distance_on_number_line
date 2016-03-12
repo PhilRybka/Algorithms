@@ -1,0 +1,5 @@
+int distance(int a, int b){
+  int difference=a-b;
+  if(difference>=0) return difference;
+  return -difference;
+}
