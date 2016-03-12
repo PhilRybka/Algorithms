@@ -1,4 +1,5 @@
-// Source (polish site about algorithms): http://www.algorytm.edu.pl/algorytmy-maturalne/liczby-doskonale.html
+// Source:  http://www.algorytm.edu.pl/algorytmy-maturalne/liczby-doskonale.html
+
 #include<iostream>
 #include<cmath>
 using namespace std;
