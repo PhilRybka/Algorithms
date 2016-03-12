@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main()
+{
+    int i=3;
+    char ch=i+'0';
+    std::cout << ch;
+    return 0;
+}
