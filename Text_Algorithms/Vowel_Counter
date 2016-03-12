@@ -4,7 +4,7 @@ using namespace std;
 bool isVowel(char a){
     //Other languages, eg. Polish have additional 'y' as vowel, keep in mind to check if your language has a different set of vowels
     switch(a){
-    case 'a': return true;
+        case 'a': return true;
         case 'e':return true;
         case 'i':return true;
         case 'o':return true;
