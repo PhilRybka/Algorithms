@@ -1,19 +1,12 @@
 //Another name for this algorithm is Euclidean Algorithm
-#include <iostream>
-using namespace std;
 
 int GCD(int n){
   int buffer;
+ 
   while(b!=0){
     buffer=b;
-    b=a%a;
+    b=a%b;
     a=buffer;
   }
   return a;
-}
-
-int main(){
-  int a,b;
-  cin>>a>>b;
-  cout<<GCD;
 }
