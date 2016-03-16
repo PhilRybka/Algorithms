@@ -5,8 +5,7 @@ using namespace std;
 
 int main()
 {
-    char Cstr[10]="witaj";
-    string str(Cstr);
-    cout << str;
+    char cstr[]="EXAMPLE";
+    cout << string str(cstr);
     return 0;
 }
